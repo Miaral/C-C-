@@ -29,7 +29,8 @@ type必须是一个类类型，在第一种形式中，type必须是一个有效
 
 dynamic_cast主要用于类层次间的上行转换和下行转换，还可以用于类之间的交叉转换（cross cast）。
 在类层次间进行上行转换时，dynamic_cast和static_cast的效果是一样的；
-在进行下行转换时，dynamic_cast具有类型检查的功能，比static_cast更安全。dynamic_cast是唯一无法由旧式语法执行的动作，也是唯一可能耗费重大运行成本的转型动作。
+在进行下行转换时，dynamic_cast具有类型检查的功能，比static_cast更安全。dyna
+mic_cast是唯一无法由旧式语法执行的动作，也是唯一可能耗费重大运行成本的转型动作。
 
 2.3 const_cast
 const_cast，用于修改类型的const或volatile属性。 
